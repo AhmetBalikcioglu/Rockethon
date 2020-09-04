@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1738972749829364538
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1738972749829364536}
+  - component: {fileID: 1738972749829364537}
+  m_Layer: 0
+  m_Name: SpawnerLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738972749829364536
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738972749829364538}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 200}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1738972749829364537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738972749829364538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45bf1a98f66263249bccde6a5b0ff380, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacle:
+  - {fileID: 2917778830516897580, guid: d3f0f791014243b4196f1ae961f503a7, type: 3}
+  - {fileID: 9079594818964261649, guid: 4171eb3484d5fc849b5c913aa9352203, type: 3}
+  - {fileID: 3743707500995177103, guid: 63e908021900ab74490e79adf6712735, type: 3}
+  - {fileID: 8181400364429910468, guid: f3f21ba096b0b6c45b39e7cc21dcdfec, type: 3}
+  - {fileID: 2048186983165881561, guid: 75feb7f21a5e22a4f8da2be2045dacd4, type: 3}
+  - {fileID: 2937262790699887602, guid: b50bbd2817e2f494cae8cc6526c8065b, type: 3}
+  - {fileID: 8082242925538961442, guid: e706b4c4a97de974d8ed457a231da680, type: 3}
+  - {fileID: 1447115600989626692, guid: 47a6a60776fab434cbaa9cc1ecc6e4f1, type: 3}
+  collectable: {fileID: 1000013931470818, guid: 69e4b38b887f4364bbcb520d69cd4ad4,
+    type: 3}
+  end: {fileID: 4622150570275256118, guid: a7a38779456539241b0eb84385100088, type: 3}
+  startTimeBtwSpawn: 2
+  runTime: 35
+  gm: {fileID: 0}
+  player: {fileID: 0}
