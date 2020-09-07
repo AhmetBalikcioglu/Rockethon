@@ -2,7 +2,9 @@
 
 Sakarya University
 
-Finishing Project
+Graduation Project
+
+Gameplay Video: https://youtu.be/c7KdikjIXXg
 
 Supervisor: Doç.Dr. CÜNEYT BAYILMIŞ
 
